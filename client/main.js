@@ -26,10 +26,10 @@ Template.graphs_page.events({
     },
     'click .delete_graph' : function() {
         if (confirm("Are you sure you want to delete " + this.name)) {
-            Grapher.Graphs.delete(this._id);
+            Graphy.Graphs.delete(this._id);
         }
     },
     'click .open_graph' : function() {
-        Grapher.Graphs.change_current(this);
+        Graphy.Graphs.change_current(this);
     }
 });

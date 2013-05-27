@@ -6,7 +6,7 @@ Graphy.Graphs = {
             "owner": owner
         });
     },
-    rename: function(graph, newName) {
+    rename: function(graph, new_name) {
         //Update an existing graph with a new name
         GraphsModel.update({"_id" : graph},
             {$set :  {"name": new_name}}
