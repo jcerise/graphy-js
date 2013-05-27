@@ -20,4 +20,4 @@ Graphy.Graphs = {
         //Set a graph as the current, default graph
         Session.set("current_graph", graph);
     }
-}
+};
