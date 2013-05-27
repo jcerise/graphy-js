@@ -1,6 +1,6 @@
 Graphy.Nodes = {
     create : function(text, color, position, graph) {
-        NodeModel.insert({
+        NodesModel.insert({
             "text"     : text,
             "color"    : color,
             "position" : position,
